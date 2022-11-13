@@ -1,0 +1,70 @@
+.header {
+    height: 73px;
+    // border: 1px solid black;
+    .heaser-logo {
+        width: 160px;
+        height: 63px;
+        display: inline;
+        margin-left: 5%;
+    }
+    ul {
+        list-style: none;
+        float: right;
+        margin: 2vh 5% 2vh 2vh;
+        li {
+            display: inline;
+            margin: 0 2vw;
+            padding: 7px;
+            font-style: normal;
+            font-weight: 500;
+            // font-size: 18px;
+            line-height: 123.5%;
+            text-align: center;
+            font-size: calc(.7rem + .4vw);
+            color: rgba(128, 0, 128, 0.25);
+            cursor: pointer;
+            &:hover {
+                color: #800080;
+            }
+            &:nth-child(3) {
+                color: #800080;
+            }
+        }
+    }
+}
+@media(max-width:900px) {
+    .header {
+        height: auto;
+        padding-top: 5vh;
+       
+        .heaser-logo {
+            margin-left: 2%;
+            width:clamp(130px,15%,160px) ;
+            height: 47px;
+        }
+        ul {
+            margin: 1vh;
+            li {
+                &:first-child,
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    svg{
+                        &:first-child{
+                            display: none;
+                        }
+                        &:nth-child(2){
+                            margin-left: 1vw;
+                        }
+                    }
+                    padding: 10px 3vw;
+                    color: white;
+                    background: #800080;
+                    border-radius: 10px;
+                    font-size: calc(.7rem + .7vw);
+                }
+            }
+        }
+    }
+}
