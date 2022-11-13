@@ -47,7 +47,7 @@ function App() {
     return(
       <div className="neame-card">
       <div className='child'>
-        <h4>Dhiraj Saxsena</h4>
+        <h4>{item.name}</h4>
         <p>15 Sep, 2022</p>
       </div>
       <div className='child'>Courses Enrolled(6)</div>
@@ -60,7 +60,7 @@ function App() {
      
         
       </div>
-      <div className='child'>Referral Amount <span>₹185</span></div>
+      <div className='child'>Referral Amount <span>₹{item.price}</span></div>
   
     </div>
     )
