@@ -1,8 +1,8 @@
 {
     "name": "tudedude",
     "version": "0.1.0",
-    "homepage": "https://muzaffarhaque.github.io/screen1",
-    "private": false,
+    "homepage": "http://muzaffarhaque.github.io/screen1",
+    "private": true,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.2.0",
         "@fortawesome/free-solid-svg-icons": "^6.2.0",
