@@ -71,7 +71,7 @@ function App() {
 </div>
 
 
-<h4>Terms & Conditions</h4>
+<h4 className='tearm-condition'>Terms & Conditions</h4>
 
 
 

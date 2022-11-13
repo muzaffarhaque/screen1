@@ -59,7 +59,7 @@
     h4 {
         font-style: normal;
         font-weight: 600;
-        font-size: calc(.7rem + .7vw);
+        font-size: calc(.9rem + 1.1vw);
         line-height: 30px;
         /* identical to box height */
         margin: 1vh 0;
@@ -165,6 +165,9 @@
         }
     }
 
+}
+.tearm-condition{
+    font-size: calc(.7rem + .7vw) !important;
 }
 @media(max-width:900px) {
     .main-container {
